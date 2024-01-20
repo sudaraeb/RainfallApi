@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RainfallApi</name>
+    </assembly>
+    <members>
+        <member name="M:RainfallApi.Controllers.RainfallController.GetRainfallReadings(System.String,System.Int32)">
+            <summary>
+            Get rainfall readings by station Id.
+            </summary>
+        </member>
+        <member name="T:RainfallApi.Data.RainfallReading">
+            <summary>
+            Represents a rainfall reading.
+            </summary>
+        </member>
+        <member name="P:RainfallApi.Data.RainfallReading.DateMeasured">
+            <summary>
+            Gets or sets the date when the measurement was taken.
+            </summary>
+        </member>
+        <member name="P:RainfallApi.Data.RainfallReading.AmountMeasured">
+            <summary>
+            Gets or sets the amount of rainfall measured.
+            </summary>
+        </member>
+        <member name="T:RainfallApi.Data.RainfallReadingResponse">
+            <summary>
+            Represents a response containing a list of rainfall readings.
+            </summary>
+        </member>
+        <member name="P:RainfallApi.Data.RainfallReadingResponse.Readings">
+            <summary>
+            Gets or sets the list of rainfall readings.
+            </summary>
+        </member>
+    </members>
+</doc>
